@@ -3,6 +3,27 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.20](https://github.com/crenata/bejibun-app/compare/v0.1.18...v0.1.20) - 2025-10-26
+
+### 🩹 Fixes
+
+### 📖 Changes
+What's New :
+- Adding new paths
+
+New Paths :
+- `.controllersPath(path?: string)`
+- `.middlewaresPath(path?: string)`
+- `.modelsPath(path?: string)`
+- `.validatorsPath(path?: string)`
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+
+**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.18](https://github.com/crenata/bejibun-app/compare/v0.1.17...v0.1.18) - 2025-10-21
 
 ### 🩹 Fixes
