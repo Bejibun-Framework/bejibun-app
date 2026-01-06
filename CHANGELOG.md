@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [v0.1.20](https://github.com/crenata/bejibun-app/compare/v0.1.18...v0.1.20) - 2025-10-26
+## [v0.1.20](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.18...v0.1.20) - 2025-10-26
 
 ### 🩹 Fixes
 
@@ -20,11 +20,11 @@ New Paths :
 ### ❤️Contributors
 - Havea Crenata ([@crenata](https://github.com/crenata))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.18](https://github.com/crenata/bejibun-app/compare/v0.1.17...v0.1.18) - 2025-10-21
+## [v0.1.18](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.17...v0.1.18) - 2025-10-21
 
 ### 🩹 Fixes
 
@@ -51,11 +51,11 @@ Please upgrade to this version carefully.
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.17](https://github.com/crenata/bejibun-app/compare/v0.1.15...v0.1.17) - 2025-10-21
+## [v0.1.17](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.15...v0.1.17) - 2025-10-21
 
 ### 🩹 Fixes
 
@@ -67,11 +67,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.15](https://github.com/crenata/bejibun-app/compare/v0.1.13...v0.1.15) - 2025-10-21
+## [v0.1.15](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.13...v0.1.15) - 2025-10-21
 
 ### 🩹 Fixes
 - Fix root path params
@@ -84,11 +84,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.13](https://github.com/crenata/bejibun-app/compare/v0.1.12...v0.1.13) - 2025-10-20
+## [v0.1.13](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.12...v0.1.13) - 2025-10-20
 
 ### 🩹 Fixes
 
@@ -100,11 +100,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.12](https://github.com/crenata/bejibun-app/compare/v0.1.11...v0.1.12) - 2025-10-20
+## [v0.1.12](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.11...v0.1.12) - 2025-10-20
 
 ### 🩹 Fixes
 
@@ -116,11 +116,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.11](https://github.com/crenata/bejibun-app/compare/v0.1.1...v0.1.11) - 2025-10-19
+## [v0.1.11](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.1...v0.1.11) - 2025-10-19
 
 ### 🩹 Fixes
 
@@ -132,11 +132,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.1](https://github.com/crenata/bejibun-app/compare/v0.1.1...v0.1.1) - 2025-10-19
+## [v0.1.1](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.1...v0.1.1) - 2025-10-19
 
 ### 🩹 Fixes
 
@@ -157,4 +157,4 @@ Available Paths :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-app/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
