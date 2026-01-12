@@ -8,10 +8,10 @@ export default class MaintenanceBuilder {
     }
 
     public async isMaintenanceMode(): Promise<boolean> {
-        return Bun.file(this.config.file).exists();
+        return await Bun.file(this.config.file).exists();
     }
 
     public async getData(): Promise<any> {
-        return Bun.file(this.config.file).json();
+        return await Bun.file(this.config.file).json();
     }
 }
