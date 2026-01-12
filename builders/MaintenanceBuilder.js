@@ -5,9 +5,9 @@ export default class MaintenanceBuilder {
         this.config = AppConfig.maintenance;
     }
     async isMaintenanceMode() {
-        return Bun.file(this.config.file).exists();
+        return await Bun.file(this.config.file).exists();
     }
     async getData() {
-        return Bun.file(this.config.file).json();
+        return await Bun.file(this.config.file).json();
     }
 }

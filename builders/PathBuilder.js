@@ -23,6 +23,9 @@ export default class PathBuilder {
     databasePath(_path) {
         return path.resolve(this.cwd, `database/${defineValue(_path, "")}`);
     }
+    jobsPath(_path) {
+        return path.resolve(this.cwd, `app/jobs/${defineValue(_path, "")}`);
+    }
     middlewaresPath(_path) {
         return path.resolve(this.cwd, `app/middlewares/${defineValue(_path, "")}`);
     }

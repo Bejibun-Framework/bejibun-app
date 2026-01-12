@@ -7,6 +7,7 @@ export default class PathBuilder {
     configPath(_path?: string): string;
     controllersPath(_path?: string): string;
     databasePath(_path?: string): string;
+    jobsPath(_path?: string): string;
     middlewaresPath(_path?: string): string;
     modelsPath(_path?: string): string;
     publicPath(_path?: string): string;

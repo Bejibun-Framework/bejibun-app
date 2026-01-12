@@ -3,6 +3,24 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.23](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.20...v0.1.23) - 2026-01-12
+
+### 🩹 Fixes
+
+### 📖 Changes
+What's New :
+- Added new path
+
+New Paths :
+- `.jobsPath(path?: string)` Path to jobs directory.
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.20](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.18...v0.1.20) - 2025-10-26
 
 ### 🩹 Fixes
