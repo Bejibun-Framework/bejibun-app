@@ -64,7 +64,15 @@ export default class PathBuilder {
         return path.resolve(this.cwd, `storage/${defineValue(_path, "")}`);
     }
 
+    public testsPath(_path?: string): string {
+        return path.resolve(this.cwd, `tests/${defineValue(_path, "")}`);
+    }
+
     public validatorsPath(_path?: string): string {
         return path.resolve(this.cwd, `app/validators/${defineValue(_path, "")}`);
+    }
+
+    public websocketsPath(_path?: string): string {
+        return path.resolve(this.cwd, `app/websockets/${defineValue(_path, "")}`);
     }
 }

@@ -47,7 +47,13 @@ export default class PathBuilder {
     storagePath(_path) {
         return path.resolve(this.cwd, `storage/${defineValue(_path, "")}`);
     }
+    testsPath(_path) {
+        return path.resolve(this.cwd, `tests/${defineValue(_path, "")}`);
+    }
     validatorsPath(_path) {
         return path.resolve(this.cwd, `app/validators/${defineValue(_path, "")}`);
+    }
+    websocketsPath(_path) {
+        return path.resolve(this.cwd, `app/websockets/${defineValue(_path, "")}`);
     }
 }

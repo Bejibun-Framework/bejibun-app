@@ -15,5 +15,7 @@ export default class PathBuilder {
     routesPath(_path?: string): string;
     rootPath(_path?: string): string;
     storagePath(_path?: string): string;
+    testsPath(_path?: string): string;
     validatorsPath(_path?: string): string;
+    websocketsPath(_path?: string): string;
 }
