@@ -3,6 +3,23 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.25](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.24...v0.1.25) - 2026-08-20
+
+### 🩹 Fixes
+
+### 📖 Changes
+#### Tooling
+- Added `prettier` + `.prettierrc.json` / `.prettierignore` and an `eslint.config.js` (flat config, `typescript-eslint`) for consistent formatting/linting across `src`
+- Added `bun run format`, `bun run eslint`, and `bun run lint` scripts; `bun run build` now runs `lint` before compiling
+- `alias` script now runs `tsc-alias` directly instead of via `bunx`
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.24](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.23...v0.1.24) - 2026-05-31
 
 ### 🩹 Fixes
