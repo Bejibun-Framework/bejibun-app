@@ -13,6 +13,18 @@ All notable changes to this project will be documented in this file.
 - Added `bun run format`, `bun run eslint`, and `bun run lint` scripts; `bun run build` now runs `lint` before compiling
 - `alias` script now runs `tsc-alias` directly instead of via `bunx`
 
+### 📦 Dependencies
+
+- Bumped `@types/luxon` from `^3.7.1` to `^3.7.4`
+- Bumped `tsc-alias` (devDependency) from `^1.8.16` to `^1.9.2`
+- Added `@eslint/js` (devDependency) `^10.0.1`
+- Added `eslint` (devDependency) `^10.8.1`
+- Added `eslint-config-prettier` (devDependency) `^10.1.8`
+- Added `globals` (devDependency) `^17.11.0`
+- Added `prettier` (devDependency) `^3.9.6`
+- Added `typescript` (devDependency) `^6.0.3`
+- Added `typescript-eslint` (devDependency) `^8.67.0`
+
 ### ❤️Contributors
 - Havea Crenata ([@crenata](https://github.com/crenata))
 
