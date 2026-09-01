@@ -3,6 +3,43 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.26](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.25...v0.1.26) - 2026-08-26
+
+### 🩹 Fixes
+
+### 📖 Changes
+- `App.Path` and `App.Maintenance` now return cached singleton instances instead of allocating a new builder on every access
+- `PathBuilder` caches the working directory at module level instead of calling `process.cwd()` per instance
+- Replaced `defineValue()` calls with native nullish coalescing (`?? ""`)
+
+### 🧪 Tests
+- Added test suite (25 tests across 3 files) covering `PathBuilder`, `App` facade caching, and `MaintenanceBuilder`
+
+### ⚡ Benchmarks
+- Added benchmark suite comparing baseline (`@bejibun/app@0.1.24`) vs optimized build
+- Cold start: **1.37x** faster full process, **4.67x** faster import + first call
+- Path methods: **1.08–1.44x** faster (5–6M ops/s)
+
+### 📦 Dependencies
+
+- Removed `@bejibun/utils` `^0.1.29`
+- Bumped `@types/bun` from `^3.7.1` to `^3.7.4`
+- Bumped `tsc-alias` (devDependency) from `^1.8.16` to `^1.9.3`
+- Added `@eslint/js` (devDependency) `^10.0.1`
+- Added `eslint` (devDependency) `^10.8.1`
+- Added `eslint-config-prettier` (devDependency) `^10.1.8`
+- Added `globals` (devDependency) `^17.11.0`
+- Added `prettier` (devDependency) `^3.9.6`
+- Added `typescript` (devDependency) `^6.0.3`
+- Added `typescript-eslint` (devDependency) `^8.69.0`
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-app/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.25](https://github.com/Bejibun-Framework/bejibun-app/compare/v0.1.24...v0.1.25) - 2026-08-20
 
 ### 🩹 Fixes
