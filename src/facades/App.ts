@@ -1,11 +1,11 @@
 import MaintenanceBuilder from "@/builders/MaintenanceBuilder";
 import PathBuilder from "@/builders/PathBuilder";
 
-/** Cached PathBuilder instance. */
-const pathBuilder = new PathBuilder();
+/** Lazily cached Path builder instance. */
+let pathBuilder: PathBuilder | null = null;
 
-/** Cached MaintenanceBuilder instance. */
-const maintenanceBuilder = new MaintenanceBuilder();
+/** Lazily cached Maintenance builder instance. */
+let maintenanceBuilder: MaintenanceBuilder | null = null;
 
 /**
  * Static facade exposing builders for the application's core services.
@@ -13,11 +13,15 @@ const maintenanceBuilder = new MaintenanceBuilder();
 export default class App {
     /** Provides the path builder instance. */
     public static get Path(): PathBuilder {
-        return pathBuilder;
+        if (!pathBuilder) pathBuilder = new PathBuilder();
+
+        return pathBuilder as PathBuilder;
     }
 
     /** Provides the maintenance builder instance. */
     public static get Maintenance(): MaintenanceBuilder {
-        return maintenanceBuilder;
+        if (!maintenanceBuilder) maintenanceBuilder = new MaintenanceBuilder();
+
+        return maintenanceBuilder as MaintenanceBuilder;
     }
 }
